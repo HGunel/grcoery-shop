@@ -1,0 +1,164 @@
+.sticky{
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.container-head {
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.header-top {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  img {
+    width: 150px;
+  }
+
+  .icons {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p {
+      opacity: 0.9;
+      margin: 0 !important;
+    }
+    i, a {
+      color: #253d4e;
+    }
+  }
+  .icon-4,
+  .icon-1,
+  .icon-2,
+  .icon-3,
+  *p {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .form {
+    width: 30%;
+    height: 45px;
+    border: solid 2px;
+    padding: 4px;
+    border-radius: 5px;
+    border-color: #bce3c9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    input {
+      border: none;
+      outline: none;
+    }
+    button {
+      color: aliceblue;
+      background-color: #3bb77e;
+      border: none;
+      border-radius: 5px;
+      width: 80px;
+      height: 38px;
+    }
+  }
+
+  .button-2 {
+    #btn-2 {
+      width: 150px;
+      height: 38px;
+      background-color: #ffff;
+      border-radius: 5px;
+      // box-shadow: 28px 15px 27px 1px rgba(85, 83, 83, 0.22);
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      border-color: rgb(153, 153, 153);
+      color: #3bb77e;
+      border: none;
+      transition: 0.4s;
+    }
+    #btn-2:hover {
+      position: relative;
+      transform: translateY(-3px);
+    }
+  }
+}
+.header-bottom {
+  width: 100%;
+  // height: 10vh;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 5;
+ 
+
+  .collapse{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    // position: fixed;
+
+    .mob-icon {
+      display: none    ;
+      
+    }
+  }
+
+  button {
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3bb77e;
+    color: #ffff;
+  }
+  button:hover {
+    background-color: #299c66;
+    transition: 0.5s;
+  }
+  .navbar-nav {
+    gap: 15px;
+    a {
+      font-size: 17px;
+      color: #253d76;
+      span {
+        opacity: 0.7;
+        font-size: 12px;
+      }
+
+      .fire {
+        color: #53c08e;
+        opacity: 1;
+        font-size: 18px;
+      }
+    }
+   
+}
+
+}
+
+
+
+
+
+@media(max-width:992px){
+  .header-bottom{
+    .container-fluid{
+      
+        .collapse{
+          .navbar-nav{
+            display: none;
+          }
+          .mob-icon {
+            display: block  ;
+          
+          }
+        }
+      
+    }
+  }
+}

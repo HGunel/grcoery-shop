@@ -1,0 +1,51 @@
+
+.carousel-inner{
+    position: relative;
+    .left-infos{
+        width: 50%;
+        margin: 0 auto;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+       
+        .text-1{
+            width: 80%;
+          
+        }
+        .total-text{
+            width: 100%;
+       
+            .text-2{
+                span{
+                    color: #3BB77E;
+                }
+                color: #7E7E7E;
+               
+     
+            }
+    
+            .subscribe{
+                width: 50%;
+                height: 62px;
+                padding: 4px;
+                border-radius: 25px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: #fff;
+                input {
+                  border: none;
+                  outline: none;
+                }
+                button {
+                  color: #ffff;
+                  background-color: #3bb77e;
+                  border: none;
+                  border-radius: 25px;
+                  width: 105px;
+                  height: 59px;
+                }
+            }
+        }
+    }
+}

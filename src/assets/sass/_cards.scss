@@ -1,0 +1,44 @@
+.rows{
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    a{
+        text-decoration: none;
+        color: black !important;
+    }
+    p{
+        opacity: 0.6;
+        margin: 0 !important;
+    }
+    .cards{
+        width: 210px;
+        height: 90px;
+        display: flex;  
+        justify-content: center;
+        align-items: center;
+        background-color: #F4F6FA;
+        border-radius: 10px;
+        cursor: pointer;
+        &:hover{
+            .img{
+                img{
+                    transform: translateY(-5px);
+                }
+            }
+        }
+        .img{
+            width: 60px;
+            padding: 5px;
+            img{
+                transition: .6s;
+                width: 100%;
+            }
+        }
+    }
+    .cards:nth-child(odd){
+        height: 110px !important;
+    }
+    
+}

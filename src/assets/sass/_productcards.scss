@@ -1,0 +1,23 @@
+.card{
+
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;  
+    .card-store{
+        font-size: 9px;
+        opacity: 0.5;
+    }
+    .card-title{
+        font-weight: bold;
+    }
+    .amount{
+        width: 38%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+     .card-discount{
+        font-size: 11px;
+        text-decoration: line-through;
+     }
+   
+    }
+}

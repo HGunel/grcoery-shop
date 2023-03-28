@@ -1,0 +1,428 @@
+*, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.container-head {
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.header-top {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-top img {
+  width: 150px;
+}
+.header-top .icons {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-top .icons p {
+  opacity: 0.9;
+  margin: 0 !important;
+}
+.header-top .icons i, .header-top .icons a {
+  color: #253d4e;
+}
+.header-top .icon-4,
+.header-top .icon-1,
+.header-top .icon-2,
+.header-top .icon-3,
+.header-top * p {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-top .form {
+  width: 30%;
+  height: 45px;
+  border: solid 2px;
+  padding: 4px;
+  border-radius: 5px;
+  border-color: #bce3c9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-top .form input {
+  border: none;
+  outline: none;
+}
+.header-top .form button {
+  color: aliceblue;
+  background-color: #3bb77e;
+  border: none;
+  border-radius: 5px;
+  width: 80px;
+  height: 38px;
+}
+.header-top .button-2 #btn-2 {
+  width: 150px;
+  height: 38px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-color: rgb(153, 153, 153);
+  color: #3bb77e;
+  border: none;
+  transition: 0.4s;
+}
+.header-top .button-2 #btn-2:hover {
+  position: relative;
+  transform: translateY(-3px);
+}
+
+.header-bottom {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 5;
+}
+.header-bottom .collapse {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.header-bottom .collapse .mob-icon {
+  display: none;
+}
+.header-bottom button {
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #3bb77e;
+  color: white;
+}
+.header-bottom button:hover {
+  background-color: #299c66;
+  transition: 0.5s;
+}
+.header-bottom .navbar-nav {
+  gap: 15px;
+}
+.header-bottom .navbar-nav a {
+  font-size: 17px;
+  color: #253d76;
+}
+.header-bottom .navbar-nav a span {
+  opacity: 0.7;
+  font-size: 12px;
+}
+.header-bottom .navbar-nav a .fire {
+  color: #53c08e;
+  opacity: 1;
+  font-size: 18px;
+}
+
+@media (max-width: 992px) {
+  .header-bottom .container-fluid .collapse .navbar-nav {
+    display: none;
+  }
+  .header-bottom .container-fluid .collapse .mob-icon {
+    display: block;
+  }
+}
+.big-back {
+  width: 100%;
+  height: 50vh;
+  background-image: url("https://themepanthers.com/wp/nest/d1/wp-content/uploads/2022/02/banner-10-min.png");
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.big-back .content {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.big-back .content .shop-left {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.big-back .content .shop-left h1 {
+  color: #253D4E;
+}
+.big-back .content .shop-left .shop-home {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #47BB86;
+}
+.big-back .content .shop-left .shop-home span {
+  margin-left: 8px;
+  color: #47BB86;
+}
+.big-back .content .shop-left .shop-home .shop-other {
+  color: #848885;
+}
+.big-back .content .shop-left .links {
+  transition: 0.5s;
+  cursor: pointer;
+}
+.big-back .content .shop-left .links span i {
+  transition: 0.5s;
+}
+.big-back .content .shop-left .links:hover {
+  color: #FDC040;
+}
+.big-back .content .shop-left .links:hover span i {
+  color: #FDC040;
+}
+.big-back .content .shop-right {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+.big-back .content .shop-right button {
+  padding: 5px;
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  color: #3BB77E;
+}
+.big-back .content .shop-right button:hover {
+  color: #FDC040;
+  transition: 0.5s;
+}
+
+.div {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div .div-1 {
+  width: 80%;
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.div .div-1 .card-line {
+  width: 100%;
+  height: 10vh;
+  background-color: #F4F6FA;
+  border-radius: 5px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.div .div-1 .card-line i {
+  color: #29A56C;
+  margin-left: 15px;
+}
+.div .div-1 .card-button {
+  width: 100%;
+  justify-content: start;
+  align-items: center;
+  display: flex;
+}
+.div .div-1 .card-button button {
+  width: 130px;
+  height: 48px;
+  background-color: #29A56C;
+  padding: auto;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+.div .div-1 .card-button button :hover {
+  background-color: #FDC040;
+}
+
+.info {
+  width: 100;
+  height: 50vh;
+  background-image: url("https://themepanthers.com/wp/nest/d1/wp-content/uploads/2022/02/banner-10-min.png");
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+}
+.info img {
+  width: 490px;
+  margin-bottom: -25px;
+}
+.info .left-infos {
+  width: 50%;
+  margin: 0 auto;
+}
+.info .left-infos .text-1 {
+  width: 80%;
+}
+.info .left-infos .total-text {
+  width: 100%;
+}
+.info .left-infos .total-text .text-2 {
+  color: #7E7E7E;
+}
+.info .left-infos .total-text .text-2 span {
+  color: #3BB77E;
+}
+.info .left-infos .total-text .subscribe {
+  width: 50%;
+  height: 62px;
+  padding: 4px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+.info .left-infos .total-text .subscribe input {
+  border: none;
+  outline: none;
+}
+.info .left-infos .total-text .subscribe button {
+  color: white;
+  background-color: #3bb77e;
+  border: none;
+  border-radius: 25px;
+  width: 105px;
+  height: 59px;
+}
+
+.rows {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.rows a {
+  text-decoration: none;
+  color: black !important;
+}
+.rows p {
+  opacity: 0.6;
+  margin: 0 !important;
+}
+.rows .cards {
+  width: 210px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F4F6FA;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.rows .cards:hover .img img {
+  transform: translateY(-5px);
+}
+.rows .cards .img {
+  width: 60px;
+  padding: 5px;
+}
+.rows .cards .img img {
+  transition: 0.6s;
+  width: 100%;
+}
+.rows .cards:nth-child(odd) {
+  height: 110px !important;
+}
+
+.row img {
+  width: 150px;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.card .card-store {
+  font-size: 9px;
+  opacity: 0.5;
+}
+.card .card-title {
+  font-weight: bold;
+}
+.card .amount {
+  width: 38%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card .amount .card-discount {
+  font-size: 11px;
+  text-decoration: line-through;
+}
+
+.carousel-inner {
+  position: relative;
+}
+.carousel-inner .left-infos {
+  width: 50%;
+  margin: 0 auto;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.carousel-inner .left-infos .text-1 {
+  width: 80%;
+}
+.carousel-inner .left-infos .total-text {
+  width: 100%;
+}
+.carousel-inner .left-infos .total-text .text-2 {
+  color: #7E7E7E;
+}
+.carousel-inner .left-infos .total-text .text-2 span {
+  color: #3BB77E;
+}
+.carousel-inner .left-infos .total-text .subscribe {
+  width: 50%;
+  height: 62px;
+  padding: 4px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+.carousel-inner .left-infos .total-text .subscribe input {
+  border: none;
+  outline: none;
+}
+.carousel-inner .left-infos .total-text .subscribe button {
+  color: white;
+  background-color: #3bb77e;
+  border: none;
+  border-radius: 25px;
+  width: 105px;
+  height: 59px;
+}
+
+body {
+  position: relative !important;
+}/*# sourceMappingURL=style.css.map */
